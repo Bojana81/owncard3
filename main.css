@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
+  font-size: 1.2vw;  
 }
 
 body {
@@ -14,24 +15,24 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
  }
 
 #container{
-  margin-top: 500px;
-  width: 800px;
-  height: 800px;
+  height: 60%;
+  width: 40%;
   border-radius: 8px;
   box-shadow: hsla(0, 0%, 0%, .2) 10px 10px 80px;
   font-family: serif;
+  background-color: green;
+  margin: 5%;    
+  position: fixed;
 }
 
 img {
+  width: 40%;
   display: block;
-  width: 300px;
-  height: 300px;
   border-radius: 8%;
-  padding: 2px;
+  padding: 1.2vw;
   background-color: #555;
   transition: all 0.5s ease-in-out;
   filter: grayscale(40%);
@@ -39,72 +40,59 @@ img {
   margin-right: auto;
 }
 
-#second-line {
-  width: 800px;
-  height: 300px;
-  display: flex;  
-}
-
 .profile-info {
-  width: 300px;
-  height: 300px;
+  width: 40%;
+  display: block;
   background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 8px;
-  padding: 60px;
+  border-radius: 8%;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  margin-left: 0px;
-  align-items: center;
-}
-
-.invisible{ 
-  width: 200px;
-  height: 300px;
+  position: absolute;
+  left: 0;
+  
 }
 
 .about {
-  font-size: 20px;  
-  text-align: justify;
   line-height: 150%; 
-  width: 300px;
-  height: 300px;
+  width: 40%;
+  display: block;
   background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 8px;
-  padding: 2px;
+  border-radius: 8%;
+  padding: 1.2vw;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  margin-right: 0px;
   text-align: center;
-  display: flex;
-  align-items: center;
+  position: absolute;
+  right:0;
+  font-size: 1.2vw;
 }
 
 #links {
-  font-size: 20px;  
+  font-size: 1.2vw;  
   text-align: justify;
   line-height: 150%; 
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
-  padding: 2px;
+  height: 14%;
+  border-radius: 8%;
+  padding: 1.2vw;
   background-color: hsla(0, 0%, 100%, .5);
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: center;
+  position: absolute;  
+  bottom: 0;
+  
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 20px;  
-  margin-bottom: 20px;
+  font-size: 1.2vw;   
+  margin-bottom: 1.2vw;
 }
 
 #from {
-  padding: 20px;
+  padding-top: 1.0vw;
 }
 #credo::first-letter {
     font-family: "Cinzel decorative";
-    font-size: 32px;}
+      font-size: 1.5vw;
+}
 
 .profile-info, .links, #contact{
   text-align: center;
@@ -128,7 +116,7 @@ img:hover {
 
 ul {
   list-style-type: none;
-  font-size: 40px;  
+  font-size: 1.8vw;  
   text-align: center;
 }
 
@@ -137,9 +125,9 @@ li {
 }
 
 h1, h2, #from {
-  line-height: 150%; 
+  line-height: 1.3vw; 
 }
 
-#contact {
-  margin-top: 100px
+#contact { 
+  font-size: 1.3vw; 
 }
